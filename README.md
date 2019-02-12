@@ -50,7 +50,7 @@ plotted % Asian population and % Non-English Speakers (all normalized to 0-1
 range). Are latitude and longitude potentially serving as a proxy for predictors
 that would not be acceptable in a government auditing model?
 
-![Alt text](/assets/choropleth-bias.jpg?raw=true "Choropleth Bias")
+![Alt text](/assets/choropleth-bias.JPG?raw=true "Choropleth Bias")
 
 ### Objectives
 
