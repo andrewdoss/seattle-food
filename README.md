@@ -35,11 +35,11 @@ and others like it (https://chicago.github.io/food-inspections-evaluation/)
 While this explains the motivation for applying machine learning to food safety
 inspections, there are also reasons to be cautious in this application. Any
 auditing approach that moves from random selection to a prioritized ranking
-creates risk of unjust bias that effectively places a stricter burden of
+creates risk of bias that effectively places a stricter burden of
 compliance and/or likelihood of punishment on subsets of the population. It is
 important to review what variables the predictive model is using to rank
-inspections and carefully consider whether the variables are just and ethical.
-In some cases, machine learning models can even reinforce historical biases.
+inspections and consider whether the variables are appropriate.
+In some cases, machine learning models can reinforce historical biases.
 
 For example, my initial exploratory data analysis showed that latitude and
 longitude were predictive of food safety inspection violations. The picture below
@@ -48,7 +48,7 @@ failure proportion at a census tract level using only latitude and longitude
 (note, some areas are unavailable in this prototype). I also
 plotted % Asian population and % Non-English Speakers (all normalized to 0-1
 range). Are latitude and longitude potentially serving as a proxy for predictors
-that would not be acceptable in a government auditing model?
+that would not be acceptable in a public government auditing model?
 
 ![Alt text](/assets/choropleth-bias.JPG?raw=true "Choropleth Bias")
 
@@ -67,7 +67,7 @@ and discuss ethical suitability for a government audit program.
 - The three primary categories of features (records, census, Yelp!) have been
 mostly explored
 - TO DO: text analytics, predictive model selection/tuning/evaluation, comparison
-to prior work, review of ethical concerns (if any) with final model
+to prior work
 
 ### Data and Citations
 
